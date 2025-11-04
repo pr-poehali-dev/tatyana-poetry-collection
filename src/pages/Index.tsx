@@ -93,7 +93,7 @@ const Index = () => {
                 Зубкова Татьяна Михайловна
               </p>
               <p className="text-sm text-muted-foreground mt-2">
-                1950–2024
+                1950–2025
               </p>
             </div>
             <div className="w-32 h-32 border-4 border-foreground rotate-45" />
