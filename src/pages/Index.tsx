@@ -87,7 +87,10 @@ const Index = () => {
                 СТИХОТВОРЕНИЯ
               </h1>
               <p className="text-2xl md:text-3xl font-light tracking-wide text-muted-foreground">
-                Зубкова Татьяна
+                Зубкова Татьяна Михайловна
+              </p>
+              <p className="text-sm text-muted-foreground mt-2">
+                1950–2024
               </p>
             </div>
             <div className="w-32 h-32 border-4 border-foreground rotate-45" />
@@ -101,24 +104,34 @@ const Index = () => {
               <div className="w-12 h-12 border-2 border-accent" />
             </div>
             <Card className="p-8 bg-card/50 backdrop-blur border-2 border-foreground/20 flex-1">
-              <div className="space-y-4 text-lg leading-relaxed">
-                <p>
-                  <span className="text-3xl font-bold text-accent">Т</span>атьяна Зубкова — современная поэтесса, 
-                  работающая на пересечении классической и экспериментальной поэзии.
-                </p>
+              <div className="space-y-5 text-base leading-relaxed">
+                <div>
+                  <p className="font-bold text-lg mb-2">Биография</p>
+                  <p className="text-muted-foreground">
+                    <span className="text-2xl font-bold text-accent">З</span>убкова Татьяна Михайловна родилась 4 марта 1950 года в селе Обвал Тамалинского района Пензенской области, в семье бывшего ветерана войны. В семье было 6 детей: 4 сестры и 2 брата, из них Татьяна была самая старшая.
+                  </p>
+                </div>
+
                 <p className="text-muted-foreground">
-                  Её творчество вдохновлено русским авангардом начала XX века, 
-                  но при этом обращается к современным темам — цифровой реальности, 
-                  фрагментации восприятия, поиску смысла в хаосе информации.
+                  С детства любила писать стихи, подражая своему отцу — Аринушкину Михаилу Ивановичу, который печатался 50 лет в районной газете «Организатор». Школу закончила на хорошо и отлично, поступила в Саратовский государственный университет имени Н. Г. Чернышевского. Выучилась на учителя химии и биологии.
                 </p>
+
                 <p className="text-muted-foreground">
-                  В стихотворениях Татьяны форма становится содержанием: 
-                  геометрия строф, асимметрия ритма, визуальная игра с пробелами 
-                  создают особое пространство, где читатель становится соавтором.
+                  Отличник просвещения, педагог с 40-летним стажем. Работала завучем, а также директором.
                 </p>
-                <div className="flex items-center gap-3 pt-4 border-t-2 border-accent/20">
-                  <div className="w-8 h-8 bg-accent" />
-                  <span className="text-sm font-light">Публиковалась в журналах "Новый мир", "Арион", "Воздух"</span>
+
+                <div className="pt-4 border-t-2 border-accent/20">
+                  <p className="font-bold text-lg mb-2">О личной жизни</p>
+                  <p className="text-muted-foreground">
+                    Вышла замуж за Виктора Давыдовича, своего верного супруга, с которым прожили уже как 53 года. Родила трёх детей — двух дочерей и сына. У неё большая семья, которая поддерживала её в начинаниях как поэтессы.
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-3 pt-4 border-t-2 border-accent/20">
+                  <div className="w-8 h-8 bg-accent flex-shrink-0 mt-1" />
+                  <p className="text-sm font-light italic">
+                    Именно в этом сборнике вы познакомитесь с творчеством малоизвестной поэтессы — Зубковой Татьяны. Эту книгу написала внучка Зубковой — Анисимова Анна, собственно она собрала все стихотворения своей бабушки и сделала из них сборник.
+                  </p>
                 </div>
               </div>
             </Card>
@@ -183,7 +196,8 @@ const Index = () => {
               <p className="text-sm text-muted-foreground font-light">
                 Сборник стихотворений © 2024
               </p>
-              <p className="text-lg font-medium mt-1">Татьяна Зубкова</p>
+              <p className="text-lg font-medium mt-1">Зубкова Татьяна Михайловна</p>
+              <p className="text-xs text-muted-foreground mt-1">Сборник составлен Анисимовой Анной</p>
             </div>
             <div className="flex gap-2">
               <div className="w-3 h-3 bg-foreground" />
